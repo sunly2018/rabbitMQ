@@ -1,0 +1,37 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.0.42.30:3306/itsm3?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&useOldAliasMetadataBehavior=true&useSSL=false&serverTimezone=Hongkong
+    username: root
+    password: Dcits@2021
+#    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false
+#    username: root
+#    password: root
+  application:
+    name: mq-test
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /
+
+
+
+#eureka:
+#  server:
+#    enable-self-preservation: false
+#    eviction-interval-timer-in-ms: 10000
+#  client:
+#    register-with-eureka: false
+#    fetch-register: false
+#    serviceUrl:
+#      defaultZone: http://localhost:8010/eureka/
+#  instance:
+#    lease-renewal-interval-in-seconds: 10
+    #表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间
+#    lease-expiration-duration-in-seconds: 30
+    #表示eureka client发送心跳给server端的频率
