@@ -1,0 +1,4 @@
+/mq-test/target/
+.idea/workspace.xml
+target/classes/application-dev.yml
+/target/
