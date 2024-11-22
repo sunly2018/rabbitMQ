@@ -2,3 +2,5 @@
 .idea/workspace.xml
 target/classes/application-dev.yml
 /target/
+.idea/workspace.xml
+target/classes/application-dev.yml
