@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04d91424-7965-4162-a4de-07d2bbb1ac84" name="Default" comment="" />
+    <list default="true" id="04d91424-7965-4162-a4de-07d2bbb1ac84" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,19 +218,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/sunli/Documents/code/Demo-sunli/mq-test/rabbitMQ/mq-test",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "4fd05ead753b1f3f698e63b99ceaaf21",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sunli/Documents/code/Demo-sunli/mq-test/rabbitMQ/mq-test&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4fd05ead753b1f3f698e63b99ceaaf21&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pingan.zhxz.rabbit" />
@@ -306,8 +308,20 @@
       <updated>1582598606802</updated>
       <workItem from="1582598608828" duration="21858000" />
       <workItem from="1726211069359" duration="4756000" />
-      <workItem from="1726220715448" duration="317000" />
+      <workItem from="1726220715448" duration="6038000" />
+      <workItem from="1726739752859" duration="60000" />
+      <workItem from="1726739819317" duration="615000" />
+      <workItem from="1726824310022" duration="176000" />
+      <workItem from="1732256341395" duration="491000" />
     </task>
+    <task id="LOCAL-00001" summary="公司字样修改">
+      <created>1732256454251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732256454251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -379,6 +393,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="公司字样修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="公司字样修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
